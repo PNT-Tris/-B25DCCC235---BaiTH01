@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Trang portfolio cá nhân của Phạm Ngọc Trí - Web Developer."
+    />
+    <title>Ngọc Trí | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Điều hướng chính">
+        <a class="logo" href="#top" aria-label="Về đầu trang">MA<span>.</span></a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Mở menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="main-menu">
+          <li><a class="nav-link active" href="#gioi-thieu">Giới thiệu</a></li>
+          <li><a class="nav-link" href="#ky-nang">Kỹ năng</a></li>
+          <li><a class="nav-link" href="#du-an">Dự án</a></li>
+          <li><a class="nav-link" href="#lien-he">Liên hệ</a></li>
+        </ul>
+
+        <button class="theme-toggle" type="button" aria-label="Bật chế độ tối">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="gioi-thieu">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">XIN CHÀO, MÌNH LÀ</p>
+            <h1>Phạm Ngọc <span>Trí</span></h1>
+            <p class="hero-description">
+              Sinh viên Công nghệ Thông tin yêu thích tạo nên những trải nghiệm số
+              đơn giản, đẹp mắt và hữu ích.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#du-an">Xem dự án</a>
+              <a class="button button-ghost" href="#lien-he">Liên hệ với mình</a>
+            </div>
+            <ul class="social-links" aria-label="Liên kết mạng xã hội">
+              <li><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Hình minh họa lập trình viên">
+            <div class="profile-card">
+              <div class="profile-glow"></div>
+              <div class="avatar" aria-hidden="true">Aries</div>
+              <p class="status"><span></span> Đang mở cho cơ hội mới</p>
+              <div class="code-window" aria-hidden="true">
+                <p><span>&lt;</span>developer<span>&gt;</span></p>
+                <p class="code-line">&nbsp;&nbsp;create();</p>
+                <p><span>&lt;/</span>developer<span>&gt;</span></p>
+              </div>
+            </div>
+            <div class="floating-tag tag-html">&lt;/&gt; Web</div>
+            <div class="floating-tag tag-design">✦ UI/UX</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section section-alt" id="ve-toi">
+        <div class="container about-grid">
+          <div class="section-heading reveal">
+            <p class="eyebrow">VỀ MÌNH</p>
+            <h2>Biến ý tưởng thành <span>sản phẩm số</span>.</h2>
+          </div>
+          <div class="about-text reveal">
+            <p>
+              Mình là một sinh viên luôn tò mò về công nghệ và cách nó giải quyết
+              những vấn đề thường ngày. Mỗi dự án là cơ hội để mình học thêm điều mới,
+              từ thiết kế giao diện đến tối ưu trải nghiệm người dùng.
+            </p>
+            <div class="quick-facts">
+              <div><strong>01+</strong><span>Năm học hỏi</span></div>
+              <div><strong>05+</strong><span>Dự án đã làm</span></div>
+              <div><strong>100%</strong><span>Tinh thần học hỏi</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="ky-nang">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">CHUYÊN MÔN</p>
+            <h2>Kỹ năng của <span>mình</span></h2>
+            <p>Những công cụ mình đang sử dụng để biến ý tưởng thành hiện thực.</p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card reveal">
+              <div class="skill-icon icon-blue">&lt;/&gt;</div>
+              <h3>Front-end</h3>
+              <p>Xây dựng giao diện mượt mà, thân thiện trên mọi thiết bị.</p>
+              <ul><li>HTML5 & CSS3</li><li>JavaScript</li><li>Responsive Design</li></ul>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-icon icon-purple">✦</div>
+              <h3>UI/UX Design</h3>
+              <p>Thiết kế trải nghiệm rõ ràng, lấy người dùng làm trung tâm.</p>
+              <ul><li>Figma</li><li>Wireframing</li><li>Design System</li></ul>
+            </article>
+            <article class="skill-card reveal">
+              <div class="skill-icon icon-orange">⌘</div>
+              <h3>Công cụ</h3>
+              <p>Làm việc hiệu quả, quản lý mã nguồn và phối hợp nhóm.</p>
+              <ul><li>Git & GitHub</li><li>VS Code</li><li>Canva</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section section-alt" id="du-an">
+        <div class="container">
+          <div class="projects-top reveal">
+            <div class="section-heading">
+              <p class="eyebrow">SẢN PHẨM NỔI BẬT</p>
+              <h2>Dự án gần <span>đây</span></h2>
+            </div>
+            <label class="search-box" for="project-search">
+              <span aria-hidden="true">⌕</span>
+              <input id="project-search" type="search" placeholder="Tìm dự án..." />
+            </label>
+          </div>
+
+          <div class="filter-buttons reveal" aria-label="Lọc dự án">
+            <button class="filter-button is-selected" data-filter="all" type="button">Tất cả</button>
+            <button class="filter-button" data-filter="web" type="button">Web</button>
+            <button class="filter-button" data-filter="design" type="button">UI/UX</button>
+            <button class="filter-button" data-filter="app" type="button">Ứng dụng</button>
+          </div>
+
+          <div class="project-grid" id="project-list">
+            <article class="project-card reveal" data-category="web" data-search="greenmart website ecommerce bán hàng">
+              <div class="project-image image-green"><span>Green<br />Mart</span><i>🌿</i></div>
+              <div class="project-content">
+                <div class="project-meta"><span class="tag">Web</span><span>2025</span></div>
+                <h3>GreenMart — Cửa hàng xanh</h3>
+                <p>Giao diện thương mại điện tử cho cửa hàng thực phẩm hữu cơ.</p>
+                <a href="#lien-he" class="project-link">Xem chi tiết <span>→</span></a>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="design" data-search="studyflow mobile app ui ux học tập quản lý">
+              <div class="project-image image-purple"><span>study<br />flow</span><i>◌</i></div>
+              <div class="project-content">
+                <div class="project-meta"><span class="tag tag-purple">UI/UX</span><span>2025</span></div>
+                <h3>StudyFlow — Học tập thông minh</h3>
+                <p>Thiết kế ứng dụng giúp sinh viên lập kế hoạch và duy trì tập trung.</p>
+                <a href="#lien-he" class="project-link">Xem chi tiết <span>→</span></a>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="app" data-search="weatherly ứng dụng thời tiết weather app">
+              <div class="project-image image-orange"><span>Weatherly</span><i>☀</i></div>
+              <div class="project-content">
+                <div class="project-meta"><span class="tag tag-orange">Ứng dụng</span><span>2024</span></div>
+                <h3>Weatherly — Dự báo thời tiết</h3>
+                <p>Ứng dụng hiển thị thời tiết trực quan với trải nghiệm tối giản.</p>
+                <a href="#lien-he" class="project-link">Xem chi tiết <span>→</span></a>
+              </div>
+            </article>
+            <article class="project-card reveal" data-category="web" data-search="cinebox movie web phim rạp">
+              <div class="project-image image-pink"><span>Cinebox</span><i>▶</i></div>
+              <div class="project-content">
+                <div class="project-meta"><span class="tag">Web</span><span>2024</span></div>
+                <h3>Cinebox — Khám phá điện ảnh</h3>
+                <p>Trang khám phá phim với bộ lọc thể loại và lịch chiếu trực quan.</p>
+                <a href="#lien-he" class="project-link">Xem chi tiết <span>→</span></a>
+              </div>
+            </article>
+          </div>
+          <p class="empty-state" id="empty-state" hidden>Chưa tìm thấy dự án phù hợp. Hãy thử từ khóa khác nhé!</p>
+        </div>
+      </section>
+
+      <section class="contact section" id="lien-he">
+        <div class="container contact-grid">
+          <div class="contact-intro reveal">
+            <p class="eyebrow">KẾT NỐI</p>
+            <h2>Cùng tạo nên điều <span>thú vị</span> nhé!</h2>
+            <p>Nếu bạn có một ý tưởng, câu hỏi hoặc chỉ muốn trò chuyện, hãy gửi tin nhắn cho mình.</p>
+            <a class="contact-email" href="mailto:ngoctri1427@gmail.com">✉ phamtriptit1427@gmail.com</a>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Họ và tên</label>
+                <input id="name" name="name" type="text" placeholder="Nguyễn Văn A" autocomplete="name" />
+                <small class="error-message"></small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="email@example.com" autocomplete="email" />
+                <small class="error-message"></small>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Chủ đề</label>
+              <input id="subject" name="subject" type="text" placeholder="Bạn muốn trao đổi về..." />
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <div class="label-row">
+                <label for="message">Lời nhắn</label>
+                <span id="character-count">0/500</span>
+              </div>
+              <textarea id="message" name="message" rows="5" maxlength="500" placeholder="Viết lời nhắn của bạn tại đây..."></textarea>
+              <small class="error-message"></small>
+            </div>
+            <button class="button button-primary" type="submit">Gửi tin nhắn <span>→</span></button>
+            <p class="form-success" id="form-success" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="logo" href="#top">Aries<span>.</span></a>
+        <p>© <span id="current-year"></span> Phạm Ngọc Trí. Được tạo với ✦ và sự tò mò.</p>
+        <a class="back-to-top" href="#top">Lên đầu trang ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
